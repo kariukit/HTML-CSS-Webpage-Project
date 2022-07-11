@@ -107,7 +107,7 @@ p {
     clear: both;
     float: right;
     width: 35%;
-    height: 100%;
+    height: 300%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -144,20 +144,23 @@ p {
 
 .benefit-lead-img {
     margin: 10px auto;
-    max-width: 310px;
-    height: 300px;
+    /*added the width and height of images*/
+    max-width: 500px;
+    height: 500px;
 }
 
 .benefit-brand-img {
     margin: 10px auto;
-    max-width: 300px;
-    height: 300px;
+     /*added the width and height of images*/
+    max-width: 500px;
+    height: 500px;
 }
 
 .benefit-cost-img {
     margin: 10px auto;
-    max-width: 300px;
-    height: 300px;
+     /*added the width and height of images*/
+    max-width: 500px;
+    height: 500px;
 }
 
 .search-engine-optimization {
@@ -167,7 +170,7 @@ p {
     /*inserted marging left*/
     margin-left: 20px;
     padding: 20px;
-    height: 1200px;
+    height: 1500px;
     width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -184,7 +187,8 @@ p {
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 20px;
-    height: 1200px;
+     /*added the width and height of images*/
+    height: 1500px;
     width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -201,7 +205,8 @@ p {
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 20px;
-    height: 1200px;
+     /*added the width and height of images*/
+    height: 1500px;
     width:80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
