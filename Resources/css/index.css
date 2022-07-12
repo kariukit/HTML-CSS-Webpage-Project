@@ -6,16 +6,12 @@
 
 body {
     background-color: #d9dcd6;
-    @media laptop {
-        max-width: $laptop;
-        
-    }
 }
 
 .header {
     margin: 20px;
     padding: 20px;
-    width: 200%;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -23,7 +19,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
     margin: 20px;
 }
 
@@ -37,23 +33,22 @@ body {
     color: rgb(85, 84, 84);
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.div h1 nav ul {
+.header nav ul {
     list-style-type:none;
 }
 
-.div h1 nav ul li {
-    list-style-type: none;
-    width: 150px;
+.header nav ul li {
+    display: inline-block;
     margin-left: 25px;
-    float: left;
+    float: right;
 }
 
 a {
@@ -67,15 +62,14 @@ p {
 }
 
 .hero {
-    height: 1200px;
-    width:200%;
-    /*added margin dimensions*/
-    margin-left: 20px;
-    margin-right: 20px;
+    /*added margin to the left*/
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: 25px;
 }
 
 .float-left {
@@ -97,17 +91,18 @@ p {
 
 .content {
     width: 75%;
-    display: inline-block;
+    display:inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    display: inline-block;
     margin-right: 20px;
-    padding: 10%;
     clear: both;
     float: right;
-    width: 35%;
-    height: 300%;
+    padding: 20px;
+    height: 100%;
+    width: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -143,100 +138,82 @@ p {
 }
 
 .benefit-lead-img {
-    margin: 10px auto;
-    /*added the width and height of images*/
-    max-width: 500px;
-    height: 500px;
+    display: block;
+    margin: 10 auto;
+    max-width: 150px;
 }
 
 .benefit-brand-img {
-    margin: 10px auto;
-     /*added the width and height of images*/
-    max-width: 500px;
-    height: 500px;
+    display: block;
+    margin: 10 auto;
+    max-width: 150px;
 }
 
 .benefit-cost-img {
-    margin: 10px auto;
-     /*added the width and height of images*/
-    max-width: 500px;
-    height: 500px;
+    display: block;
+    margin: 10 auto;
+    max-width: 150px;
 }
 
 .search-engine-optimization {
-    /*added display block*/
-    display: inline-block;
     margin-bottom: 20px;
-    /*inserted marging left*/
     margin-left: 20px;
     padding: 20px;
-    height: 1500px;
+    height: 300px;
     width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    text-align: left;
-    justify-content: right;
-    /*added justify*/
+    
 
 }
 
 .online-reputation-management {
-    /*added display block*/
-    display:inline-block;
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 20px;
-     /*added the width and height of images*/
-    height: 1500px;
+    height: 300px;
     width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    justify-content: right;
-    text-align: left;
-    /*added justify*/
-
+    
 }
 
 .social-media-marketing {
-    /*added display block*/
-    display: inline-block;
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 20px;
-     /*added the width and height of images*/
-    height: 1500px;
-    width:80%;
+    height: 300px;
+    width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    text-align: left;
-    justify-content: right;
-    /*added justify*/
+    
     
     
 }
 
 .search-engine-optimization img {
     
-    height: 500px;
+    height: 200px;
     float: left;
-    padding:10px;
+    padding:1px;
     
 }
 
 .online-reputation-management img {
-    max-height: 500px;
+    height: 200px;
     float: right;
-    padding:10px;
+    padding:1px;
     
 } 
 
 .social-media-marketing img {
-    max-height: 500px;
+    height: 200px;
     float: left;
-    padding:10px;
+    padding:1px;
+    
 
 }
 
@@ -260,8 +237,11 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /*added margin to footer*/
+    margin-left: 25px;
 }
 
 .footer h2 {
     font-size: 20px;
+    margin-left: 25px;
 }
