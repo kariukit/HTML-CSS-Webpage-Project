@@ -27,3 +27,7 @@ What I did learn from the exercise was;
 5. How to write a proper Read Me file and add image to it
 
 6. How to use and resolve issues on GitHub as well as push the update code 
+
+7. That the computer reads the code from top to bottom so how I arrange the html and css is important
+
+8. How to structure the web page using semantic HTML elements such as header, footer, main and nav
